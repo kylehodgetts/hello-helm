@@ -1,4 +1,4 @@
 FROM scratch
-ADD webapp /
+ADD hello-helm /
 EXPOSE 8080
-ENTRYPOINT [ "/webapp" ]
+ENTRYPOINT [ "/hello-helm" ]
