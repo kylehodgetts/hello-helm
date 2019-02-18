@@ -6,5 +6,5 @@ image:
 service:
   name: hello-service
   type: NodePort
-  externalPort: 80
-  internalPort: 80
+  externalPort: 8080
+  internalPort: 8080
