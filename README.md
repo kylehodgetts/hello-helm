@@ -13,13 +13,13 @@ To run `docker run -p 8080:8080 hello-helm`
 
 ---
 
-`helm upgrade hello-helm --set replicaCount=3 -f kh.yaml ./hello`
+`helm upgrade hello-helm --set replicaCount=3 -f lab.yaml ./hello-helm`
 
-`helm upgrade hello-helm -f chart/kh.yaml ./chart/hello/`
+`helm upgrade hello-helm -f chart/lab.yaml ./chart/hello-helm`
 
-`helm upgrade hello-helm --set replicaCount=3 ./chart/hello`
+`helm upgrade hello-helm --set replicaCount=3 ./chart/hello-helm`
 
-`helm upgrade hello-helm --set replicaCount=3 -f chart/kh.yaml ./chart/hello`
+`helm upgrade hello-helm --set replicaCount=3 -f chart/lab.yaml ./chart/hello`
 
 ---
 
